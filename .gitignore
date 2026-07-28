@@ -86,6 +86,8 @@ wandb/
 .coverage
 htmlcov/
 coverage.xml
+*.cover
+.hypothesis/
 
 # ── Frontend / Node.js ───────────────────────────────────
 node_modules/
@@ -134,3 +136,11 @@ Thumbs.db
 
 # ── Archive directory ──────────────────────────────────────
 src_archive/
+
+# ── Docker ─────────────────────────────────────────────────
+.dockerignore
+
+# ── Package managers ───────────────────────────────────────
+Pipfile.lock
+poetry.lock
+yarn-error.log
