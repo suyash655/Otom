@@ -21,6 +21,9 @@ env/
 .env.local
 .env.*.local
 
+# ── Devin configuration ──────────────────────────────────
+.devin/config.local.json
+
 # ── Jupyter ───────────────────────────────────────────────
 .ipynb_checkpoints/
 *.ipynb
@@ -28,6 +31,7 @@ env/
 # ── Data ─────────────────────────────────────────────────
 data/raw/
 data/features/*.npy
+data/samples/
 !data/features/.gitkeep
 !data/raw/.gitkeep
 
@@ -40,6 +44,8 @@ models/*.pkl
 # ── Checkpoints ──────────────────────────────────────────
 checkpoints/*.pth
 checkpoints/*.pt
+checkpoints/*.json
+checkpoints/*.pkl
 !checkpoints/.gitkeep
 
 # ── Logs & audits ─────────────────────────────────────────────────────────
