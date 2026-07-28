@@ -6,6 +6,7 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red?logo=pytorch&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green?logo=fastapi&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-16+-black?logo=nextjs&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker&logoColor=white)
 
 ⚠️ **RESEARCH PROTOTYPE ONLY** — Not clinically validated. Must not be used for diagnosis or patient care.
 
@@ -50,7 +51,18 @@ OtoScope AI diagnoses **6 ear conditions** from otoscopic images using a hybrid 
 
 ## 🚀 Quick Start
 
-### Backend
+### Using Docker Compose (Recommended)
+```bash
+# Start all services
+docker-compose up --build
+
+# Access services
+# Backend API: http://localhost:8000/docs
+# Frontend UI: http://localhost:3000
+```
+
+### Manual Setup
+#### Backend
 ```bash
 cd backend
 pip install -r requirements.txt
@@ -59,7 +71,7 @@ python -m uvicorn backend.app.main:app --host 0.0.0.0 --port 8000
 ```
 📚 **API Docs:** http://localhost:8000/docs
 
-### Frontend
+#### Frontend
 ```bash
 cd frontend
 npm install
@@ -99,6 +111,12 @@ Late fusion combines both feature types for +2.0pp improvement:
 otoscope-ai/
 ├── README.md                   ← You are here (quick start)
 ├── README_PROFESSIONAL.md      ← Full technical documentation ⭐
+├── docker-compose.yml          ← Local development setup
+├── docker-compose.prod.yml     ← Production deployment
+├── Dockerfile.backend          ← Backend container
+├── Dockerfile                  ← Multi-stage build
+├── .pre-commit-config.yaml     ← Pre-commit hooks
+├── pyproject.toml              ← Python tooling config
 ├── backend/
 │   ├── app/
 │   │   ├── main.py            ← FastAPI entry point
@@ -116,6 +134,7 @@ otoscope-ai/
 │   ├── requirements.txt
 │   └── tests/
 ├── frontend/                  ← Next.js + React UI
+│   ├── Dockerfile             ← Frontend container
 │   ├── app/
 │   │   ├── page.tsx           ← Landing page
 │   │   ├── demo/              ← Interactive demo
@@ -179,6 +198,41 @@ curl -X POST http://localhost:8000/explain \
 ```
 
 📚 **Full Docs:** http://localhost:8000/docs
+
+---
+
+## 🚢 Deployment
+
+### Docker
+```bash
+# Build and run with Docker Compose
+docker-compose up --build
+
+# Production deployment
+docker-compose -f docker-compose.prod.yml up --build
+
+# Individual backend container
+docker build -f Dockerfile.backend -t otoscope-backend .
+docker run -p 8000:8000 otoscope-backend
+
+# Individual frontend container
+docker build -f frontend/Dockerfile -t otoscope-frontend ./frontend
+docker run -p 3000:3000 otoscope-frontend
+```
+
+### CI/CD
+The project includes GitHub Actions workflows for:
+- Automated testing on push/PR
+- Docker image building and pushing
+- Security vulnerability scanning
+- Code coverage reporting
+
+### Environment Variables
+Create a `.env` file based on `.env.example`:
+```bash
+cp .env.example .env
+# Edit .env with your configuration
+```
 
 ---
 
@@ -259,9 +313,71 @@ This professional README includes:
 
 ---
 
+## 🛠️ Development Setup
+
+### Pre-commit Hooks
+The project uses pre-commit hooks to ensure code quality:
+
+```bash
+# Install pre-commit
+pip install pre-commit
+
+# Install hooks
+pre-commit install
+
+# Run hooks manually
+pre-commit run --all-files
+```
+
+### CI/CD Pipeline
+The project includes GitHub Actions for automated testing and deployment:
+- **Backend tests**: Python unit tests with coverage
+- **Frontend tests**: JavaScript/TypeScript tests and linting
+- **Docker builds**: Automated multi-stage Docker builds
+- **Security scanning**: Trivy vulnerability scanning
+
+### Docker Development
+```bash
+# Development with hot reload
+docker-compose up
+
+# Production build
+docker-compose -f docker-compose.prod.yml up --build
+
+# Individual services
+docker-compose up backend    # Backend only
+docker-compose up frontend   # Frontend only
+```
+
+### Code Quality Tools
+- **Python**: Black, isort, flake8, bandit
+- **JavaScript/TypeScript**: ESLint
+- **Docker**: Hadolint
+- **Markdown**: markdownlint
+- **Security**: detect-secrets
+
+---
+
 ## 🤝 Contributing
 
 Found an issue? Have a suggestion? Open a GitHub issue or PR!
+
+### Development Workflow
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+### Code Style
+- Python: Follow PEP 8, use Black and isort
+- JavaScript/TypeScript: Follow ESLint rules
+- Commit messages: Use conventional commit format
+
+### Testing
+- Run tests before committing: `pytest` and `npm test`
+- Ensure pre-commit hooks pass: `pre-commit run --all-files`
+- Add tests for new features
 
 ---
 
