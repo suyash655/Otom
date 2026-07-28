@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&family=DM+Sans:wght@400;500&display=swap');
+@import "tailwindcss";
+@import "./design-tokens.css";
+
+/* --- Global UI Components --- */
+.btn-primary { background: var(--color-accent); color: #fff; font-family: var(--font-body); font-weight: 500; font-size: var(--text-sm); padding: var(--space-3) var(--space-6); border-radius: var(--radius-sm); text-decoration: none; transition: background var(--transition-fast); display: inline-block; cursor: pointer; border: none; }
+.btn-primary:hover { background: var(--color-accent-light); }
+.btn-primary:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.btn-secondary { background: transparent; color: var(--color-text-secondary); font-family: var(--font-body); font-weight: 400; font-size: var(--text-sm); padding: var(--space-3) var(--space-6); border-radius: var(--radius-sm); border: 1px solid var(--color-border-mid); text-decoration: none; transition: color var(--transition-fast), border-color var(--transition-fast); display: inline-block; }
+.btn-secondary:hover { color: var(--color-text-primary); border-color: var(--color-text-muted); }
+
+.panel { padding: var(--space-5); background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); box-shadow: var(--shadow-card); }
+.warn-bar { border-left: 3px solid var(--color-warn-border); background: var(--color-warn-bg); color: var(--color-warn-text); padding: var(--space-3) var(--space-5); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; font-size: var(--text-sm); line-height: 1.5; }
+
+/* --- Evaluation Page --- */
+.eval-table { width: 100%; border-collapse: collapse; font-size: var(--text-sm); }
+.eval-table th { text-align: left; padding: var(--space-3) var(--space-4); border-bottom: 1px solid var(--color-border); font-weight: 500; color: var(--color-text-muted); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.06em; }
+.eval-table td { padding: var(--space-3) var(--space-4); border-bottom: 1px solid var(--color-border); color: var(--color-text-secondary); vertical-align: top; }
+.eval-table tr:last-child td { border-bottom: none; }
+.eval-card { padding: var(--space-5); background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); box-shadow: var(--shadow-card); }
+.bar-track { height: 6px; background: var(--color-surface-2); border-radius: 3px; overflow: hidden; margin-top: var(--space-2); }
+.bar-fill  { height: 100%; background: var(--color-accent); border-radius: 3px; }
+
+/* --- Demo Page --- */
+.demo-dropzone { border: 1.5px dashed var(--color-border-mid); border-radius: var(--radius-lg); padding: var(--space-8); text-align: center; cursor: pointer; transition: border-color var(--transition-fast), background var(--transition-fast); background: var(--color-surface); }
+.demo-dropzone:hover, .demo-dropzone.dragging { border-color: var(--color-accent); background: var(--color-accent-pale); }
+.demo-btn { width: 100%; padding: var(--space-3) var(--space-5); border: none; border-radius: var(--radius-sm); background: var(--color-accent); color: #fff; font-family: var(--font-body); font-weight: 500; font-size: var(--text-sm); cursor: pointer; transition: background var(--transition-fast); }
+.demo-btn:hover { background: var(--color-accent-light); }
+.demo-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.conf-bar-track { height: 5px; background: var(--color-surface-2); border-radius: 3px; overflow: hidden; margin-top: var(--space-1); }
+.tda-bar-track  { height: 4px; background: var(--color-surface-2); border-radius: 2px; overflow: hidden; margin-top: 4px; }
+.low-conf-bar { border-left: 3px solid #D97706; background: #FFFBEB; color: #92400E; padding: var(--space-3) var(--space-4); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; font-size: var(--text-xs); line-height: 1.5; }
+
+@media (max-width: 900px) { .demo-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 768px) {
+  .home-metrics { grid-template-columns: repeat(2, 1fr) !important; }
+  .home-hero-btns { flex-wrap: wrap; }
+  .home-tda-grid { grid-template-columns: 1fr !important; gap: var(--space-8) !important; }
+  .home-step { grid-template-columns: 32px 1fr !important; }
+  .home-step-title { display: none; }
+  .eval-two-col { grid-template-columns: 1fr !important; }
+  .eval-metrics-grid { grid-template-columns: repeat(2,1fr) !important; }
+}

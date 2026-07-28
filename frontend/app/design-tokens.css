@@ -1,0 +1,100 @@
+/* remove the google fonts import from tokens — it's in globals.css now */
+
+/* ─── OtoScope AI Design Tokens ─────────────────────────────────────────── */
+
+:root {
+  /* Fonts */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+
+  /* Colours */
+  --color-bg:             #FAF9F7;
+  --color-surface:        #FFFFFF;
+  --color-surface-2:      #F4F2EE;
+  --color-border:         #E8E4DC;
+  --color-border-mid:     #D4CFC6;
+  --color-text-primary:   #1C1917;
+  --color-text-secondary: #57534E;
+  --color-text-muted:     #A8A29E;
+  --color-accent:         #2D6A4F;
+  --color-accent-light:   #52B788;
+  --color-accent-pale:    #D8EDDF;
+
+  /* Warning */
+  --color-warn-bg:     #FFFBEB;
+  --color-warn-text:   #92400E;
+  --color-warn-border: #D97706;
+
+  /* Spacing */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-7:  32px;
+  --space-8:  48px;
+  --space-9:  64px;
+  --space-10: 128px;
+
+  --section-gap:       96px;
+  --section-gap-minor: 48px;
+
+  /* Typography scale */
+  --text-xs:   12px;
+  --text-sm:   14px;
+  --text-base: 16px;
+  --text-lg:   18px;
+  --text-xl:   20px;
+  --text-2xl:  24px;
+  --text-3xl:  32px;
+  --text-4xl:  48px;
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-lift: 0 4px 16px rgba(0,0,0,0.08), 0 1px 4px rgba(0,0,0,0.04);
+
+  /* Transitions */
+  --transition-fast:   150ms ease;
+  --transition-normal: 220ms ease;
+  --transition-slow:   350ms ease;
+}
+
+/* ─── Base reset ─────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+}
+
+/* ─── Entrance animations ────────────────────────────────────────────────── */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-in          { animation: fade-up 0.5s var(--transition-slow) both; }
+.delay-1             { animation-delay: 0.05s; }
+.delay-2             { animation-delay: 0.12s; }
+.delay-3             { animation-delay: 0.19s; }
+.delay-4             { animation-delay: 0.26s; }
+.delay-5             { animation-delay: 0.33s; }
+
+/* ─── Scrollbar ──────────────────────────────────────────────────────────── */
+::-webkit-scrollbar       { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-surface-2); }
+::-webkit-scrollbar-thumb { background: var(--color-border-mid); border-radius: 3px; }
+
+/* ─── Confidence bar ─────────────────────────────────────────────────────── */
+.conf-bar { transition: width 0.6s ease; }

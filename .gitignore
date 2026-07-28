@@ -1,0 +1,127 @@
+# ── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ── Build / dist ─────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Environment variables ─────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Jupyter ───────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Data ─────────────────────────────────────────────────
+data/raw/
+data/features/*.npy
+!data/features/.gitkeep
+!data/raw/.gitkeep
+
+# ── Models ───────────────────────────────────────────────
+models/*.pt
+models/*.onnx
+models/*.pkl
+!models/.gitkeep
+
+# ── Checkpoints ──────────────────────────────────────────
+checkpoints/*.pth
+checkpoints/*.pt
+!checkpoints/.gitkeep
+
+# ── Logs & audits ─────────────────────────────────────────────────────────
+logs/
+*.log
+*.jsonl
+
+# ── Audit logs ───────────────────────────────────────────
+logs/
+*.jsonl
+*.log
+
+# ── Metrics ──────────────────────────────────────────────
+metrics/*.json
+!metrics/.gitkeep
+
+# ── Figures ──────────────────────────────────────────────
+reports/figures/*.png
+reports/figures/*.pdf
+!reports/figures/.gitkeep
+
+# ── MLflow ───────────────────────────────────────────────
+mlruns/
+mlartifacts/
+
+# ── W&B ──────────────────────────────────────────────────
+wandb/
+
+# ── DVC ──────────────────────────────────────────────────
+.dvc/tmp/
+.dvc/cache/
+
+# ── Testing ──────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# ── Frontend / Node.js ───────────────────────────────────
+node_modules/
+.next/
+out/
+build/
+.cache/
+.turbo/
+
+# ── Frontend Environment ───────────────────────────────────
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ── Frontend Build Artifacts ───────────────────────────────
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+
+# ── IDE / Local environment ─────────────────────────────────────────────────
+.vscode/
+.deven/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+
+# ── OS ────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ── Temporary Files ───────────────────────────────────────
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+
+# ── Archive directory ──────────────────────────────────────
+src_archive/

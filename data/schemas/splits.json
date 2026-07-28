@@ -1,0 +1,3834 @@
+{
+  "splits": {
+    "train": [
+      {
+        "image": "aom (89).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (78).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (75).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (30).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (71).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (95).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (51).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (74).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (12).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (7).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (106).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (102).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (37).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (79).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (61).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (36).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (85).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (43).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (47).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (31).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (10).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (110).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (81).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (67).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (32).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (1).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (56).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (58).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (11).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (13).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (55).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (48).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (113).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (33).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (65).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (53).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (52).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (23).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (88).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (76).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (4).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (35).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (34).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (86).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (104).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (3).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (117).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (97).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (15).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (63).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (19).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (50).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (2).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (39).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (28).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (16).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (25).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (62).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (114).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (93).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (8).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (94).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (9).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (46).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (119).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (59).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (87).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (100).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (90).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (109).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (101).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (20).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (29).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (41).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (103).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (108).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (69).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (49).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (80).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (5).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (77).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (38).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (26).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (45).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (112).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (42).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (96).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (57).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (60).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (27).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (118).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (105).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (92).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (115).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (22).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (116).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (66).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "earwax (38).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (124).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (105).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (132).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (71).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (123).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (75).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (58).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (51).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (19).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (73).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (14).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (96).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (104).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (95).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (109).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (32).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (37).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (108).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (10).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (26).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (86).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (33).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (70).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (128).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (6).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (119).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (15).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (60).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (97).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (110).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (68).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (111).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (80).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (112).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (42).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (100).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (54).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (83).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (117).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (47).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (65).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (45).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (78).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (21).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (121).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (53).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (90).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (118).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (55).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (18).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (46).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (50).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (62).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (48).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (22).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (122).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (107).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (140).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (7).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (43).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (76).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (129).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (77).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (23).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (11).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (52).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (66).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (113).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (102).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (3).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (57).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (98).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (5).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (84).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (99).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (103).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (2).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (93).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (92).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (39).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (91).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (79).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (136).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (82).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (16).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (9).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (81).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (137).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (139).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (85).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (34).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (94).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (116).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (29).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (49).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (89).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (40).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (133).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (56).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (131).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (1).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (13).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (30).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (63).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (138).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (87).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (64).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (61).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (130).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (106).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (72).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "csom (16).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (28).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (11).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (42).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (25).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (39).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (51).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (50).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (5).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (21).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (14).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (44).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (12).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (8).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (32).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (52).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (9).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (10).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (45).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (30).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (17).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (4).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (29).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (56).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (33).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (53).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (63).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (57).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (2).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (54).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (41).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (23).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (15).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (37).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (31).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (20).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (47).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (55).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (58).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (34).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (60).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (27).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (7).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (3).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (35).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (13).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (19).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (40).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (49).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (26).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (59).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "earVentilationTube (7).png",
+        "class": "Ear Ventilation Tube"
+      },
+      {
+        "image": "earVentilationTube (15).png",
+        "class": "Ear Ventilation Tube"
+      },
+      {
+        "image": "earVentilationTube (8).png",
+        "class": "Ear Ventilation Tube"
+      },
+      {
+        "image": "earVentilationTube (2).png",
+        "class": "Ear Ventilation Tube"
+      },
+      {
+        "image": "earVentilationTube (12).png",
+        "class": "Ear Ventilation Tube"
+      },
+      {
+        "image": "earVentilationTube (4).png",
+        "class": "Ear Ventilation Tube"
+      },
+      {
+        "image": "earVentilationTube (5).png",
+        "class": "Ear Ventilation Tube"
+      },
+      {
+        "image": "earVentilationTube (13).png",
+        "class": "Ear Ventilation Tube"
+      },
+      {
+        "image": "earVentilationTube (10).png",
+        "class": "Ear Ventilation Tube"
+      },
+      {
+        "image": "earVentilationTube (11).png",
+        "class": "Ear Ventilation Tube"
+      },
+      {
+        "image": "earVentilationTube (14).png",
+        "class": "Ear Ventilation Tube"
+      },
+      {
+        "image": "earVentilationTube (9).png",
+        "class": "Ear Ventilation Tube"
+      },
+      {
+        "image": "earVentilationTube (1).png",
+        "class": "Ear Ventilation Tube"
+      },
+      {
+        "image": "earVentilationTube (16).png",
+        "class": "Ear Ventilation Tube"
+      },
+      {
+        "image": "foreignObjectEar (1).png",
+        "class": "Foreign Object Ear"
+      },
+      {
+        "image": "normal (471).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (401).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (492).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (177).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (273).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (254).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (313).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (491).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (184).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (1).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (499).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (223).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (533).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (604).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (248).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (540).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (406).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (344).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (413).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (133).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (649).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (118).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (602).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (369).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (356).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (630).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (249).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (364).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (477).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (265).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (302).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (615).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (179).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (402).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (340).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (578).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (323).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (167).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (481).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (122).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (158).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (277).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (436).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (220).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (526).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (497).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (617).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (510).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (363).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (563).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (458).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (216).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (508).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (482).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (601).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (546).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (211).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (556).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (376).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (200).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (338).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (214).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (647).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (291).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (621).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (278).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (412).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (557).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (476).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (322).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (207).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (487).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (505).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (498).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (543).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (140).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (383).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (209).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (457).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (186).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (238).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (210).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (644).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (239).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (192).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (534).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (329).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (442).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (241).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (152).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (450).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (215).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (633).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (531).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (438).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (638).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (125).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (463).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (303).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (509).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (465).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (562).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (434).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (154).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (272).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (480).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (422).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (504).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (264).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (245).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (494).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (292).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (310).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (468).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (576).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (197).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (198).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (333).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (228).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (234).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (203).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (173).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (351).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (318).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (424).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (212).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (596).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (632).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (161).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (365).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (360).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (470).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (605).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (317).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (253).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (410).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (176).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (620).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (389).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (503).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (423).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (640).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (502).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (587).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (432).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (293).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (473).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (201).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (437).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (202).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (370).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (298).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (354).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (411).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (218).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (483).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (408).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (414).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (143).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (371).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (484).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (650).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (294).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (573).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (426).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (315).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (121).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (355).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (341).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (316).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (346).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (279).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (219).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (262).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (225).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (409).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (372).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (599).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (643).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (120).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (566).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (541).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (611).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (134).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (206).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (287).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (593).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (515).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (397).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (407).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (516).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (551).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (464).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (160).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (339).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (572).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (243).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (571).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (637).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (597).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (535).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (181).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (456).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (381).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (312).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (170).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (641).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (168).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (635).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (592).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (269).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (217).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (513).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (127).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (485).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (538).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (250).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (349).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (267).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (544).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (524).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (380).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (144).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (377).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (204).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (145).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (247).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (429).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (420).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (646).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (529).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (352).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (619).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (549).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (404).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (285).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (486).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (591).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (136).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (288).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (622).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (388).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (309).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (156).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (155).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (393).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (342).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (137).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (268).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (261).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (623).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (590).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (199).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (300).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (645).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (567).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (196).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (290).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (439).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (583).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (308).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (479).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (466).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (478).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (188).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (532).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (475).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (189).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (390).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (119).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (530).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (460).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (274).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (255).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (636).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (634).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (252).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (511).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (335).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (231).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (258).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (613).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (558).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (295).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (585).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (230).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (362).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (579).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (545).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (375).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (169).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (296).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (275).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (263).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (501).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (332).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (297).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (326).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (550).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (525).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (628).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (618).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (528).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (146).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (400).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (517).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (306).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (642).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (337).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (163).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (159).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (547).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (150).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (358).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (194).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (307).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (246).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (625).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (607).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (276).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (164).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (577).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (320).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (452).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (289).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (327).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (232).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (580).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (449).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (527).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (398).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (608).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (560).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (336).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (425).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (374).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (548).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (266).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (387).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (521).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (311).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (282).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (396).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (415).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (440).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (435).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (256).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (500).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (149).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (523).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (427).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (280).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (157).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (153).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (564).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (367).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (489).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (559).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (334).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (321).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (361).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (554).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (131).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (445).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (350).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (606).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (382).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (453).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (138).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (430).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (614).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (373).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (639).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (626).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (419).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (378).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (561).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (345).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (359).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (612).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (174).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (385).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (331).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (495).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (536).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (142).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (251).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (514).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (124).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (281).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (417).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (237).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (555).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (123).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (183).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (129).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (454).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (172).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (205).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (244).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (616).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (182).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (190).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (552).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (117).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (574).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (519).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (191).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (512).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (648).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (624).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (226).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (582).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (222).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (399).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (507).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (151).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (221).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (405).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (539).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (180).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (240).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (286).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (518).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (141).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (126).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (421).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (443).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (444).png",
+        "class": "Normal"
+      },
+      {
+        "image": "otitisexterna (1).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (32).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (28).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (5).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (6).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (19).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (41).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (25).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (9).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (12).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (38).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (24).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (36).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (8).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (23).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (16).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (2).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (21).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (10).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (22).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (3).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (33).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (30).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (14).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (34).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (20).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (37).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (7).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (27).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (31).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (35).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (29).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (11).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "pseudoMembranes (11).png",
+        "class": "Pseudo Membranes"
+      },
+      {
+        "image": "pseudoMembranes (1).png",
+        "class": "Pseudo Membranes"
+      },
+      {
+        "image": "pseudoMembranes (2).png",
+        "class": "Pseudo Membranes"
+      },
+      {
+        "image": "pseudoMembranes (4).png",
+        "class": "Pseudo Membranes"
+      },
+      {
+        "image": "pseudoMembranes (8).png",
+        "class": "Pseudo Membranes"
+      },
+      {
+        "image": "pseudoMembranes (9).png",
+        "class": "Pseudo Membranes"
+      },
+      {
+        "image": "pseudoMembranes (10).png",
+        "class": "Pseudo Membranes"
+      },
+      {
+        "image": "pseudoMembranes (7).png",
+        "class": "Pseudo Membranes"
+      },
+      {
+        "image": "pseudoMembranes (5).png",
+        "class": "Pseudo Membranes"
+      },
+      {
+        "image": "tympanoskleros (13).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (19).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (20).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (21).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (7).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (27).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (1).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (6).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (16).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (9).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (10).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (15).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (26).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (3).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (8).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (22).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (17).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (14).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (11).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (18).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (5).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (24).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (4).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (12).png",
+        "class": "Tympanoskleros"
+      }
+    ],
+    "val": [
+      {
+        "image": "aom (17).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (54).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (111).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (40).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (14).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (84).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (68).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (6).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (64).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (83).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (82).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "earwax (114).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (74).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (59).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (31).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (41).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (120).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (17).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (115).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (36).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (25).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (127).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (27).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (28).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (69).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "csom (1).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (48).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (6).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (61).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (24).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (46).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "earVentilationTube (6).png",
+        "class": "Ear Ventilation Tube"
+      },
+      {
+        "image": "foreignObjectEar (2).png",
+        "class": "Foreign Object Ear"
+      },
+      {
+        "image": "normal (224).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (455).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (162).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (589).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (610).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (178).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (213).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (257).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (319).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (147).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (299).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (446).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (394).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (304).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (467).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (575).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (301).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (553).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (594).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (565).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (343).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (227).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (588).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (469).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (132).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (259).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (324).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (431).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (366).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (542).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (166).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (451).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (328).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (569).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (195).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (488).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (586).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (416).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (330).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (392).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (472).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (627).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (459).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (305).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (348).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (314).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (185).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (391).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (570).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (236).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (165).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (603).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (368).png",
+        "class": "Normal"
+      },
+      {
+        "image": "otitisexterna (4).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (40).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (39).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (15).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "pseudoMembranes (3).png",
+        "class": "Pseudo Membranes"
+      },
+      {
+        "image": "tympanoskleros (25).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (2).png",
+        "class": "Tympanoskleros"
+      }
+    ],
+    "test": [
+      {
+        "image": "aom (21).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (99).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (70).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (107).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (44).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (91).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (72).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (98).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (73).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (24).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "aom (18).png",
+        "class": "Acute Otitis Media"
+      },
+      {
+        "image": "earwax (20).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (35).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (4).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (88).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (134).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (126).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (8).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (125).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (24).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (12).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (67).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (101).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (44).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "earwax (135).png",
+        "class": "Cerumen Impaction"
+      },
+      {
+        "image": "csom (36).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (22).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (18).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (43).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (62).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "csom (38).png",
+        "class": "Chronic Otitis Media"
+      },
+      {
+        "image": "earVentilationTube (3).png",
+        "class": "Ear Ventilation Tube"
+      },
+      {
+        "image": "foreignObjectEar (3).png",
+        "class": "Foreign Object Ear"
+      },
+      {
+        "image": "normal (271).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (135).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (600).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (139).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (187).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (175).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (325).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (448).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (270).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (474).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (631).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (353).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (537).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (441).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (148).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (447).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (229).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (428).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (584).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (283).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (403).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (598).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (568).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (433).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (128).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (357).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (235).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (461).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (171).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (496).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (506).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (384).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (493).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (581).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (242).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (386).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (130).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (520).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (208).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (490).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (522).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (347).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (260).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (193).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (595).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (233).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (462).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (418).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (609).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (379).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (284).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (395).png",
+        "class": "Normal"
+      },
+      {
+        "image": "normal (629).png",
+        "class": "Normal"
+      },
+      {
+        "image": "otitisexterna (26).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (13).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (18).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "otitisexterna (17).png",
+        "class": "Otitis Externa"
+      },
+      {
+        "image": "pseudoMembranes (6).png",
+        "class": "Pseudo Membranes"
+      },
+      {
+        "image": "tympanoskleros (23).png",
+        "class": "Tympanoskleros"
+      },
+      {
+        "image": "tympanoskleros (28).png",
+        "class": "Tympanoskleros"
+      }
+    ]
+  }
+}
