@@ -24,6 +24,9 @@ env/
 # ── Devin configuration ──────────────────────────────────
 .devin/config.local.json
 
+# ── Pre-commit ─────────────────────────────────────────────
+.secrets.baseline
+
 # ── Jupyter ───────────────────────────────────────────────
 .ipynb_checkpoints/
 *.ipynb
