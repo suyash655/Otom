@@ -40,7 +40,7 @@ export default function Nav() {
           letterSpacing: "-0.01em",
           flexShrink: 0,
         }}>
-          OtoScope AI
+          OTOM
         </Link>
 
         {/* Links — centred */}

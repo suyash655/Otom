@@ -4,7 +4,7 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "OtoScope AI — Hybrid TDA Otoscopy Classifier",
+  title: "OTOM — Hybrid TDA Otoscopy Classifier",
   description:
     "Research prototype for otoscopic image classification using ResNet-18 + Topological Data Analysis.",
 };

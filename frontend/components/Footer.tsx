@@ -19,7 +19,7 @@ export default function Footer() {
         gap: "var(--space-4)",
       }}>
         <p style={{ fontSize: "var(--text-xs)", color: "var(--color-text-muted)", fontFamily: "var(--font-body)" }}>
-          © 2026 OtoScope AI. For research use only. Not a medical device.
+          © 2026 OTOM. For research use only. Not a medical device.
         </p>
         <nav style={{ display: "flex", gap: "var(--space-5)" }}>
           {["Privacy Policy", "Terms of Use", "Contact"].map(label => (

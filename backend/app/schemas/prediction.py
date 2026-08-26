@@ -1,5 +1,5 @@
 """
-Pydantic request/response schemas for the OtoScope AI API.
+Pydantic request/response schemas for the OTOM API.
 """
 from __future__ import annotations
 

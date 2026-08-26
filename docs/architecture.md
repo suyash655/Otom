@@ -1,4 +1,4 @@
-# Architecture Overview — OtoScope AI (Nexus Supply Chain)
+# Architecture Overview — OTOM
 
 ## System Architecture
 

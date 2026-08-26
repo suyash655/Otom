@@ -1,5 +1,5 @@
 """
-OtoScope AI — FastAPI application entry point.
+OTOM — FastAPI application entry point.
 
 Only contains:
   - App factory
@@ -35,7 +35,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="OtoScope AI API",
+    title="OTOM API",
     description=(
         "Hybrid CNN+TDA model for otoscopic image classification "
         "with explainability (Grad-CAM, TDA importance, clinical reasoning).\n\n"

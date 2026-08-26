@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.backend
-    container_name: otoscope-backend
+    container_name: otom-backend
     ports:
       - "8000:8000"
     volumes:
@@ -19,7 +19,7 @@ services:
       - PYTHONDONTWRITEBYTECODE=1
       - PYTHONUNBUFFERED=1
     networks:
-      - otoscope-network
+      - otom-network
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
       interval: 30s
@@ -32,7 +32,7 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    container_name: otoscope-frontend
+    container_name: otom-frontend
     ports:
       - "3000:3000"
     volumes:
@@ -43,7 +43,7 @@ services:
       - NODE_ENV=development
       - NEXT_PUBLIC_API_URL=http://localhost:8000
     networks:
-      - otoscope-network
+      - otom-network
     depends_on:
       backend:
         condition: service_healthy
@@ -56,7 +56,7 @@ services:
     restart: unless-stopped
 
 networks:
-  otoscope-network:
+  otom-network:
     driver: bridge
 
 volumes:

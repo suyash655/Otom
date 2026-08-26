@@ -1,5 +1,5 @@
 """
-FastAPI dependencies for the OtoScope AI backend.
+FastAPI dependencies for the OTOM backend.
 
 Provides:
   - Model/explainer singleton loader (get_model, get_explainer)
