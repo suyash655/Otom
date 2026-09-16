@@ -125,3 +125,4 @@ Otom/
 ## Future Work
 1. **GPU-Accelerated TDA:** Migrate the topological feature computation from `Giotto-tda` (or equivalent CPU library) to a CUDA-accelerated persistence library to remove the dataloading bottleneck.
 2. **Attention-Based Fusion:** Replace the current static concatenation in the late-fusion layer with a cross-attention mechanism, allowing the network to dynamically weight topological vs. textural features based on the specific image.
+3. **ONNX Export & TensorRT:** Add robust export pipelines to ONNX and TensorRT for optimized, environment-agnostic deployment in clinical settings.
