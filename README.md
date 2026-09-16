@@ -92,6 +92,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 # Install dependencies
 pip install -r requirements.txt
 
+# Note: Training automatically utilizes Early Stopping (patience=10) and checkpoints the best model based on Validation Macro F1.
 # Run a sample evaluation
 python eval.py --config config.yaml --weights checkpoints/best_model.pth
 ```
