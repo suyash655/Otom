@@ -49,6 +49,19 @@ export default function DemoPage() {
 
   const flagForReview = () => { alert("Image flagged for clinical review."); };
 
+  const exportPdf = async () => {
+    try {
+      const { jsPDF } = await import("jspdf");
+      const html2canvas = (await import("html2canvas")).default;
+      const element = document.getElementById("demo-results");
+      if (!element) return;
+      const canvas = await html2canvas(element);
+      const pdf = new jsPDF("p", "mm", "a4");
+      pdf.addImage(canvas.toDataURL("image/png"), "PNG", 0, 0, pdf.internal.pageSize.getWidth(), (canvas.height * pdf.internal.pageSize.getWidth()) / canvas.width);
+      pdf.save(`OtoScope_Report_${Date.now()}.pdf`);
+    } catch (e) { console.error("PDF export failed:", e); }
+  };
+
   const sortedTDA = result
     ? Object.entries(result.tda_importance).sort((a, b) => b[1] - a[1])
     : [];
