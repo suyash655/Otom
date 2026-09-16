@@ -89,7 +89,7 @@ cd Otom
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-# Install dependencies
+# Install dependencies (Training utilizes PyTorch Automatic Mixed Precision (AMP) for optimal GPU memory usage)
 pip install -r requirements.txt
 
 # Note: Training automatically utilizes Early Stopping (patience=10) and checkpoints the best model based on Validation Macro F1.
