@@ -47,6 +47,8 @@ export default function DemoPage() {
     { label: "Guided Backpropagation", b64: result.heatmap_guided_bp },
   ] : [];
 
+  const flagForReview = () => { alert("Image flagged for clinical review."); };
+
   const sortedTDA = result
     ? Object.entries(result.tda_importance).sort((a, b) => b[1] - a[1])
     : [];
