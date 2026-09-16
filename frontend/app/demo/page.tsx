@@ -246,7 +246,11 @@ export default function DemoPage() {
             </div>
           ) : result ? (
             <ErrorBoundary fallback={<div className="panel text-red-500">Failed to render results.</div>}>
-              <div style={{ display: "flex", flexDirection: "column", gap: "var(--space-4)" }}>
+              <div id="demo-results" style={{ display: "flex", flexDirection: "column", gap: "var(--space-4)" }}>
+                <div style={{ display: "flex", gap: "var(--space-3)", marginBottom: "var(--space-2)" }}>
+                   <button onClick={flagForReview} className="demo-btn" style={{ background: "#FEF2F2", color: "#991B1B", border: "1px solid #FECACA", flex: 1 }}>🚩 Flag for Review</button>
+                   <button onClick={exportPdf} className="demo-btn" style={{ background: "#EFF6FF", color: "#1D4ED8", border: "1px solid #BFDBFE", flex: 1 }}>📄 Export PDF Report</button>
+                </div>
 
                 {/* Heatmaps */}
                 <div className="panel">
