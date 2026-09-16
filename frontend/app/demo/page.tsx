@@ -110,7 +110,7 @@ export default function DemoPage() {
               onDragLeave={onDragLeave}
               onClick={triggerFileSelect}
             >
-              <input ref={inputRef} type="file" accept="image/*" style={{ display: "none" }} onChange={handleFileChange} />
+              <input ref={inputRef} type="file" accept="image/*, .dcm" style={{ display: "none" }} onChange={handleFileChange} />
               {preview ? (
                 /* eslint-disable-next-line @next/next/no-img-element */
                 <img src={preview} alt="Preview" style={{ maxHeight: 240, margin: "0 auto", display: "block", borderRadius: "var(--radius-md)", objectFit: "contain" }} />
