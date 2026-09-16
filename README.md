@@ -76,6 +76,9 @@ Developing this hybrid architecture required addressing several critical enginee
 ## Reproducibility
 To ensure deterministic training runs and robust model evaluation, all random seeds (PyTorch, NumPy, Python `random`) are fixed globally via the `config.yaml`.
 
+## Frontend & Clinician Interface
+A clinical-facing web interface is included, built with **Next.js**, to allow doctors to seamlessly upload otoscopic images and receive real-time diagnostic predictions.
+
 ## Setup & Installation
 
 **Prerequisites:**
