@@ -7,6 +7,7 @@ const links = [
   { href: "/demo",           label: "Demo"         },
   { href: "/explainability", label: "How It Works" },
   { href: "/evaluation",     label: "Evaluation"   },
+  { href: "/batch",          label: "Batch"        },
 ];
 
 export default function Nav() {
