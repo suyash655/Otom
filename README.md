@@ -80,7 +80,7 @@ To ensure deterministic training runs and robust model evaluation, all random se
 
 **Prerequisites:**
 - Python 3.10+
-- CUDA-compatible GPU recommended for TDA filtration computation
+- CUDA-compatible GPU (min. 8GB VRAM) highly recommended for TDA filtration computation and AMP training
 
 ```bash
 # Clone the repository
