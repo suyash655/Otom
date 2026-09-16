@@ -97,7 +97,7 @@ export default function DemoPage() {
         )}
 
         {/* Main grid */}
-        <div className="demo-grid" style={{ display: "grid", gridTemplateColumns: "400px 1fr", gap: "var(--space-6)" }}>
+        <div className="demo-grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "var(--space-6)" }}>
 
           {/* ── Left: upload + prediction ─────────────────────────── */}
           <div style={{ display: "flex", flexDirection: "column", gap: "var(--space-4)" }}>
