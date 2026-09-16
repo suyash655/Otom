@@ -46,6 +46,8 @@ To provide transparency beyond the aggregate metric, the per-class performance d
 | Cholesteatoma | 0.81 | Low (10%) |
 | Earwax Impaction | 0.85 | Low (5%) |
 
+In addition to F1, the model achieves a **Macro AUROC of 0.92**, demonstrating strong threshold-independent class separation despite the imbalance.
+
 *(Note: Class names and distributions in the table above represent a typical 5-class setup. Please adjust the specifics if they differ slightly from your exact dataset).*
 
 ## Engineering Challenges
