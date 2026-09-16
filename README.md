@@ -56,7 +56,7 @@ Developing this hybrid architecture required addressing several critical enginee
 1. **Class Imbalance & Gradient Starvation:**
    - **Symptom:** The model collapsed into predicting only the majority "Normal" and "Otitis Media" classes during early epochs, ignoring critical minority conditions.
    - **Diagnosis:** Standard Cross-Entropy loss was overwhelmed by the sheer volume of majority class examples, preventing the network from learning features specific to the underrepresented classes.
-   - **Fix:** Implemented class-weighted Focal Loss to dynamically scale gradients based on prediction confidence, forcing the network to focus on hard, misclassified examples from minority classes.
+   - **Fix:** Implemented class-weighted Focal Loss to dynamically scale gradients based on prediction confidence, forcing the network to focus on hard, misclassified examples from minority classes. This is paired with Gradient Clipping (max_norm=1.0) to prevent exploding gradients during early epochs.
 
 2. **TDA Feature Standardization Bug:**
    - **Symptom:** Adding topological features actually degraded the ResNet-18 baseline performance instead of improving it.
