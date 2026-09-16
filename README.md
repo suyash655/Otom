@@ -71,6 +71,8 @@ Developing this hybrid architecture required addressing several critical enginee
 ![Inference Demo Placeholder](path/to/demo.gif)
 *Caption: Live inference demonstration showing input image parsing and output probability distribution across the 5 categories.*
 
+*Note: Inference pipeline supports Test-Time Augmentation (TTA) with 90-degree rotations and horizontal flips to increase prediction confidence.*
+
 ## Reproducibility
 To ensure deterministic training runs and robust model evaluation, all random seeds (PyTorch, NumPy, Python `random`) are fixed globally via the `config.yaml`.
 
