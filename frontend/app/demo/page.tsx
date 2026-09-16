@@ -14,9 +14,13 @@ export default function DemoPage() {
   const { file, preview, dragging, inputRef, onFileChange, onDrop, onDragOver, onDragLeave, reset: resetFile, triggerFileSelect } = useFileHandler();
   const apiOk = useHealthCheck();
 
+  const [latencyMs, setLatencyMs] = useState<number | null>(null);
+
   const handleAnalyze = async () => {
     if (!file) return;
+    const startTime = performance.now();
     await explainImage(file);
+    setLatencyMs(performance.now() - startTime);
   };
 
   const handleReset = () => {
