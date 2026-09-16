@@ -102,7 +102,7 @@ python eval.py --config config.yaml --weights checkpoints/best_model.pth
 ## Project Structure
 ```text
 Otom/
-├── data/                  # Dataset partitions and dataloaders
+├── data/                  # Dataset partitions (tracked via DVC for versioning resilience) and dataloaders
 ├── models/                # Saved model weights
 ├── notebooks/             # EDA, TDA visualization, and experimentation
 ├── src/
