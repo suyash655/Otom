@@ -34,7 +34,7 @@ The model architecture employs a late-fusion strategy to combine textural featur
 ```
 
 ## Results
-The model achieves a **Macro F1 score of 0.87** on a 5-class medical dataset characterized by severe class imbalance. For context, typical deep learning baselines on comparable multi-class otoscopic datasets often plateau around 0.75-0.80 Macro F1 due to minority class starvation. 
+The model achieves a robust **Macro F1 score of 0.87** (averaged across 5-fold cross-validation) on a 5-class medical dataset characterized by severe class imbalance. For context, typical deep learning baselines on comparable multi-class otoscopic datasets often plateau around 0.75-0.80 Macro F1 due to minority class starvation. 
 
 To provide transparency beyond the aggregate metric, the per-class performance distribution is as follows:
 
