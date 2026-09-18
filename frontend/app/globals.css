@@ -12,7 +12,12 @@
 .btn-secondary:hover { color: var(--color-text-primary); border-color: var(--color-text-muted); background: var(--color-surface-2); }
 .btn-secondary:active { transform: scale(0.98); }
 
-.panel { padding: var(--space-5); background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); box-shadow: var(--shadow-card); }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.panel { padding: var(--space-5); background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); box-shadow: var(--shadow-card); animation: fadeIn 0.4s ease-out; }
 .warn-bar { border-left: 3px solid var(--color-warn-border); background: var(--color-warn-bg); color: var(--color-warn-text); padding: var(--space-3) var(--space-5); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; font-size: var(--text-sm); line-height: 1.5; }
 
 /* --- Evaluation Page --- */
