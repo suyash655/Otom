@@ -22,12 +22,21 @@ router = APIRouter()
 
 @router.get("/health", tags=["System"])
 def health():
-    """Health check."""
+    """Health check with model and cache diagnostics."""
     from backend.app.services.data_ingestion import CLASS_NAMES
+    from backend.app.services.xai_service import _get_cached_tda
+    cache_info = _get_cached_tda.cache_info()
     return {
         "status": "ok",
         "device": str(DEVICE),
         "classes": CLASS_NAMES,
+        "torch_version": torch.__version__,
+        "tda_cache": {
+            "hits": cache_info.hits,
+            "misses": cache_info.misses,
+            "maxsize": cache_info.maxsize,
+            "currsize": cache_info.currsize,
+        },
     }
 
 
