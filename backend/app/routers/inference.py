@@ -4,6 +4,7 @@ Inference router: /health, /predict, /explain
 from __future__ import annotations
 
 import importlib.util as _ilu
+import time
 
 import torch
 from fastapi import APIRouter, File, HTTPException, UploadFile
@@ -52,6 +53,7 @@ async def predict(file: UploadFile = File(...)):
         raise HTTPException(status_code=422, detail=f"Image loading error: {exc}")
 
     try:
+        t0 = time.perf_counter()
         with torch.no_grad():
             logits = model(img_tensor, tda_tensor)
             probs = torch.softmax(logits, dim=1)[0].cpu().numpy()
@@ -59,6 +61,7 @@ async def predict(file: UploadFile = File(...)):
         mean_probs, uncertainty, _ = model.predict_with_uncertainty(
             img_tensor, tda_tensor, n_forward=10
         )
+        processing_time_ms = (time.perf_counter() - t0) * 1000
         ckpt_class_names = get_class_names()
 
         pred_idx = int(probs.argmax())
@@ -74,7 +77,10 @@ async def predict(file: UploadFile = File(...)):
                 f"conf={confidence:.3f} unc={unc_value:.3f}"
             )
 
-        xai_service.audit_log(image_bytes, pred_name, confidence, unc_value, "/predict")
+        xai_service.audit_log(
+            image_bytes, pred_name, confidence, unc_value, "/predict",
+            processing_time_ms=processing_time_ms,
+        )
 
         return PredictionResponse(
             predicted_class=pred_name,
@@ -84,6 +90,7 @@ async def predict(file: UploadFile = File(...)):
             uncertainty=unc_value,
             low_confidence=low_confidence,
             uncertain=uncertain,
+            processing_time_ms=round(processing_time_ms, 2),
         )
     except Exception as exc:
         logger.exception("Prediction failed")
@@ -113,6 +120,7 @@ async def explain(file: UploadFile = File(...)):
         raise HTTPException(status_code=422, detail=f"Image loading error: {exc}")
 
     try:
+        t0 = time.perf_counter()
         xai = get_explainer()
         results = xai.explain(img_tensor, tda_tensor)
 
@@ -170,7 +178,11 @@ async def explain(file: UploadFile = File(...)):
             "by clinicians and must not be used for diagnosis or treatment."
         )
 
-        xai_service.audit_log(image_bytes, pred_name, confidence, unc_value, "/explain")
+        processing_time_ms = (time.perf_counter() - t0) * 1000
+        xai_service.audit_log(
+            image_bytes, pred_name, confidence, unc_value, "/explain",
+            processing_time_ms=processing_time_ms,
+        )
 
         return ExplainResponse(
             predicted_class=pred_name,
@@ -180,6 +192,7 @@ async def explain(file: UploadFile = File(...)):
             uncertainty=unc_value,
             low_confidence=low_confidence,
             uncertain=uncertain,
+            processing_time_ms=round(processing_time_ms, 2),
             heatmap_gradcam=b64_gradcam,
             heatmap_gradcam_pp=b64_gradcam_pp,
             heatmap_int_grads=b64_int_grads,
