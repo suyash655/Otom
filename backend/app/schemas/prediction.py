@@ -24,6 +24,7 @@ class PredictionResponse(BaseModel):
     low_confidence: bool = False   # True when max(softmax) < 0.5
     uncertain: bool = False        # True when MC Dropout std > 0.15
     research_disclaimer: str = _DISCLAIMER
+    processing_time_ms: Optional[float] = None
 
 
 class ExplainResponse(BaseModel):
@@ -36,6 +37,7 @@ class ExplainResponse(BaseModel):
     low_confidence: bool = False
     uncertain: bool = False
     research_disclaimer: str = _DISCLAIMER
+    processing_time_ms: Optional[float] = None
     # Base64-encoded PNG images
     heatmap_gradcam: str
     heatmap_gradcam_pp: str
