@@ -30,6 +30,7 @@ def audit_log(
     uncertainty: float,
     endpoint: str,
     app_version: str = "1.0.0",
+    processing_time_ms: float = None,
 ) -> None:
     """Append a prediction audit record to logs/audit.jsonl."""
     try:
@@ -43,6 +44,9 @@ def audit_log(
             "model_version": app_version,
             "endpoint": endpoint,
         }
+        if processing_time_ms is not None:
+            record["processing_time_ms"] = round(processing_time_ms, 2)
+            
         with open(AUDIT_LOG_PATH, "a", encoding="utf-8") as f:
             f.write(json.dumps(record) + "\n")
     except Exception:
