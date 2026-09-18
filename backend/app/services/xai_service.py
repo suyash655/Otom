@@ -49,29 +49,38 @@ def audit_log(
         logger.warning("Failed to write audit log", exc_info=True)
 
 
+import functools
+
 # ── Input preparation ─────────────────────────────────────────────────────────
 
-def prepare_inputs(image_bytes: bytes, model, transform) -> Tuple:
-    """Convert raw image bytes → (img_tensor, tda_tensor, img_np).
-
-    TDA feature dim is read from the loaded model so it always matches
-    the checkpoint, regardless of what tda_feature_dim it was trained with.
-    """
-    tda_dim = model.tda_feature_dim
+@functools.lru_cache(maxsize=128)
+def _get_cached_tda(image_hash: str, img_bytes: bytes, tda_dim: int) -> list:
     from ml.tda.tda_extract import extract_single_array_features
-
-    img = Image.open(io.BytesIO(image_bytes)).convert("RGB")
+    img = Image.open(io.BytesIO(img_bytes)).convert("RGB")
     img_np = np.array(img)
-    img_tensor = transform(img).unsqueeze(0).to(DEVICE)
-
     tda_feats = extract_single_array_features(img_np, size=32)
-
     if len(tda_feats) != tda_dim:
         logger.warning(
             f"TDA extractor returned {len(tda_feats)} features but model "
             f"expects {tda_dim}. Adjusting."
         )
         tda_feats = tda_feats[:tda_dim]
+    return tda_feats
+
+def prepare_inputs(image_bytes: bytes, model, transform) -> Tuple:
+    """Convert raw image bytes → (img_tensor, tda_tensor, img_np).
+    
+    TDA feature dim is read from the loaded model so it always matches
+    the checkpoint, regardless of what tda_feature_dim it was trained with.
+    """
+    tda_dim = model.tda_feature_dim
+    image_hash = hashlib.sha256(image_bytes).hexdigest()
+    
+    img = Image.open(io.BytesIO(image_bytes)).convert("RGB")
+    img_np = np.array(img)
+    img_tensor = transform(img).unsqueeze(0).to(DEVICE)
+
+    tda_feats = _get_cached_tda(image_hash, image_bytes, tda_dim)
 
     tda_tensor = torch.tensor(tda_feats, dtype=torch.float32).unsqueeze(0).to(DEVICE)
     return img_tensor, tda_tensor, img_np
